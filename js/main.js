@@ -40,12 +40,12 @@ window.addEventListener("scroll", function () {
 //   }
 // });
 
-$("#navbar a, .btn").on("click", function (event) {
+$("#navbar a").on("click", function (event) {
   //   console.log(this.hash);
   //   console.log(event);
 
   if (this.hash !== "") {
-    event.preventDefault();
+    // event.preventDefault();
 
     const hash = this.hash;
 
